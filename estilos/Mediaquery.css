@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+@media  screen and (max-width:600px) { /*Telas Pequenas*/
+    
+    main{
+        width: 90vw;
+        height: 1100px;
+        font-size: 0.8em;
+        border-radius: 8px;
+    }
+    #container{
+        width: 230px;
+        height: 250px;
+        font-size: 0.8em;
+        padding: 10px;
+        margin: auto;
+    }
+    #tabela{
+        width: 90vw;
+        position: relative;
+        left: 0px;
+        top: 50px;
+        font-size: 0.8em;
+        overflow:auto ;
+    }
+    #git{
+        margin-top: -20px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:768px) {/*Celular*/
+    main{
+        width:95vw;
+        height: 1350px;
+    }
+    #tabela{
+        position: relative;
+        left: -70px;
+    }
+    #git{
+        position: relative;
+        top: 80px;
+    }
+}
+
+
+@media screen and (min-width:769px) and (max-width:992px) { /*Tablet*/
+    
+   main{
+    width: 80vw;
+    height: 1350px;
+   }
+   #tabela{
+    position: relative;
+    left: -12px;
+   }
+   #git{
+    position: relative;
+    top: 85px;
+   }
+
+}
+@media screen and (min-width:992px) and (max-width:1200px) { /*Desktop*/
+    
+    main{
+        width: 70vw;
+        height: 1350px;
+    }
+    #tabela{
+        position: relative;
+        left: -28px;
+    }
+    #git{
+        position: relative;
+        top: 80px;
+    }
+}
